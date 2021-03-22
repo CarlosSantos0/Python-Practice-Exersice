@@ -1,3 +1,7 @@
+# Problema #6 Selecionado: Hiatos y Diptongos
+# Comprobar si una lista de palabras contiene Hiatos, Diptongos o AMBOS
+# Si quiere ver mas detalle del problema seleccionado desplazece hacia abajo
+
 Palabras = []
 Contienen = []
 VocalesFuertes = "a e o"
@@ -39,6 +43,17 @@ for i in range(Cantidad):
 
 print(Palabras,Contienen)
 
+""""
+Entrada:
+ La primera línea contiene un número entero N (1 ≤ N ≤ 10).
+ Cada una de las siguientes N líneas contiene una palabra, consistente en 1 a 20 letras del alfabeto inglés.
+ Todas las letras son en mayúsculas.
 
-
-
+Salida:
+ Imprime N líneas. La i-ésima línea corresponde a la i-ésima palabra de entrada. La línea debe contener
+ exactamente una de las siguientes respuestas:
+ HIATO: si la palabra tiene uno o más hiatos (pero ningún diptongo)
+ DIPTONGO: si la palabra tiene uno o más diptongos (pero ningún hiato)
+ AMBOS: si la palabra tiene ambos efectos, hiato y diptongo
+ NINGUNO: si la palabra no tiene ni hiato ni diptongo
+"""
